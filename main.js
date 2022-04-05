@@ -25,7 +25,6 @@ function createWindow () {
 app.whenReady().then(() => {
   const showInfo = () => {
     console.log(`shouldUseDarkColors: ${nativeTheme.shouldUseDarkColors}, shouldUseHighContrastColors: ${nativeTheme.shouldUseHighContrastColors}, shouldUseInvertedColorScheme: ${nativeTheme.shouldUseInvertedColorScheme}`)
-    console.log(`${systemPreferences.getColor('window')}`);
   };
 
 
